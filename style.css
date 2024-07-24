@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 206, 153);
+}
+
+header {
+    background-color: #0a1922;
+}
+
+h1 {
+    color: rgb(247, 206, 153);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+button {
+    background-color:#0a1922;
+    border: none;
+    color:#fff;
+    font-weight: bolder;
+    text-transform: lowercase;
+    cursor: pointer;
+    font-size: 15px;
+    
+    
+}
+
+#formulario-tarefa {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+#entrada-tarefa {
+    margin-right: 15px;
+    
+}
+
+ol{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    cursor: pointer;
+    color:#0a1922;
+
+}
+
+.completed {
+    cursor: pointer;
+    text-decoration: line-through;
+    color: #e71212;
+    display: flex;
+    
+}
